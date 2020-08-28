@@ -1,8 +1,15 @@
 # Similar image retrieval on Docker  
 ## Usage  
+### Clone this repository  
 ```
-$ sudo docker run -it -v $PWD:/simila-image-retrieval --gpus all --name simila-image-retrieval -p 8888:8888 tensorflow/tensorflow:latest-gpu-py3  
-$ cd simila-image-retrieval
-$ pip install -r requirements.txt
-$ jupyter notebook --port 8888 --ip=0.0.0.0 --allow-root
+$ git clone https://github.com/YUTATanamoto/similar-image-retrieval-sample.git  
+```
+### Start container
+```
+$ cd similar-image-retrieval-sample  
+$ docker-compose up
+```
+### Stop and delete container
+```
+$ docker-compose down --rmi all --volumes
 ```
