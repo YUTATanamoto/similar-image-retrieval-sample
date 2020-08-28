@@ -1,0 +1,10 @@
+images/
+models/
+extracted-features/
+Pipfile
+Pipfile.lock
+README.md
+.ipynb_checkpoints/
+.git/
+.DS_Store
+.gitignore
