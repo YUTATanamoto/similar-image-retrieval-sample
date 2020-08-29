@@ -1,4 +1,10 @@
-# Similar image retrieval sample
+# Runway Retriever  
+Sample code for similar runway image retrieval  
+
+## Requirement  
+- docker  
+- docker-compose  
+
 ## Usage  
 ### Clone this repository  
 ```
