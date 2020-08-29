@@ -6,11 +6,11 @@ Sample code for similar runway image retrieval
 - docker-compose  
 
 ## Usage  
-### Clone this repository  
+#### Clone this repository  
 ```
-$ git clone https://github.com/YUTATanamoto/similar-image-retrieval-sample.git  
+$ git clone https://github.com/YUTATanamoto/similar-runway-image-retrieval-sample.git  
 ```
-### Start container
+#### Start container
 ```
 $ cd similar-image-retrieval-sample  
 $ docker-compose up
@@ -19,7 +19,7 @@ $ docker-compose up
 - access url start with 'http://127.0.0.1:8888' displayed on the terminal  
 - open notebooks/deeplab-efficientnet-annoy.ipynb  
 
-### Stop and delete container
+#### Stop and delete container
 ```
 $ docker-compose down --rmi all --volumes
 ```
