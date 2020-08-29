@@ -23,3 +23,6 @@ $ docker-compose up
 ```
 $ docker-compose down --rmi all --volumes
 ```
+
+## TODO
+- Create feature extractor using VAE
