@@ -14,7 +14,7 @@ $ git clone https://github.com/YUTATanamoto/similar-runway-image-retrieval-sampl
 #### Start container
 ```
 $ cd similar-runway-image-retrieval-sample  
-$ docker-compose --compatibility up
+$ docker-compose up
 ```
 - Above command will launch 'jupyter notebook'  
 - Access url begining with 'http://127.0.0.1:8888' displayed on the terminal  
