@@ -4,7 +4,8 @@ Sample code for similar runway image retrieval
 ## Requirement  
 - docker  
 - docker-compose  
-- docker resource limitaion >= 8GB
+- docker's 'Resources:Momory' >= 8GB
+<img src='materials/docker-preferences'>
 
 ## Usage  
 #### Clone this repository  
