@@ -4,6 +4,7 @@ Sample code for similar runway image retrieval
 ## Requirement  
 - docker  
 - docker-compose  
+- docker resource limitaion >= 8GB
 
 ## Usage  
 #### Clone this repository  
@@ -13,11 +14,11 @@ $ git clone https://github.com/YUTATanamoto/similar-runway-image-retrieval-sampl
 #### Start container
 ```
 $ cd similar-image-retrieval-sample  
-$ docker-compose up
+$ docker-compose --compatibility up
 ```
-- above command will launch jupyter notebook  
-- access url start with 'http://127.0.0.1:8888' displayed on the terminal  
-- open notebooks/deeplab-efficientnet-annoy.ipynb  
+- Above command will launch 'jupyter notebook'  
+- Access url begining with 'http://127.0.0.1:8888' displayed on the terminal  
+- Open notebooks/deeplab-efficientnet-annoy.ipynb  
 
 #### Stop and delete container
 ```
