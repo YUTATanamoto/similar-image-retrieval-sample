@@ -1,5 +1,6 @@
 # Runway Retriever  
 Sample code for similar runway image retrieval  
+<img src='materials/retrieved-images.png'>
 
 ## Requirement  
 - docker  
