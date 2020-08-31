@@ -5,7 +5,7 @@ Sample code for similar runway image retrieval
 - docker  
 - docker-compose  
 - docker's 'Resources:Momory' >= 8GB
-<img src='materials/docker-preferences'>
+<img src='materials/docker-preferences.png'>
 
 ## Usage  
 #### Clone this repository  
