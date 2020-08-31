@@ -1,8 +1,9 @@
-version: '3'
+version: '2'
 services:
-  simila-image-retrieval:
+  jupyter:
     build: .
     ports:
       - "8888:8888"
     volumes:
       - .:/app
+    mem_limit: 8g
