@@ -13,7 +13,7 @@ $ git clone https://github.com/YUTATanamoto/similar-runway-image-retrieval-sampl
 ```
 #### Start container
 ```
-$ cd similar-image-retrieval-sample  
+$ cd similar-runway-image-retrieval-sample  
 $ docker-compose --compatibility up
 ```
 - Above command will launch 'jupyter notebook'  
