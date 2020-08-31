@@ -17,7 +17,7 @@ $ cd similar-runway-image-retrieval-sample
 $ docker-compose up
 ```
 - Above command will launch 'jupyter notebook'  
-- Access url begining with 'http://127.0.0.1:8888' displayed on the terminal  
+- Open url begining with 'http://127.0.0.1:8888' displayed on the terminal  
 - Open notebooks/deeplab-efficientnet-annoy.ipynb  
 
 #### Stop and delete container
